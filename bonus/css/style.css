@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    background-image: url(../../img/laptop-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main, #intestazione, footer {
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+
+/* Header */
+
+#banner {
+    height: 165px;
+    background-image: url(../../img/pattern.png);
+    background-color: rgb(56, 0, 56);
+    background-size: 620px;
+    background-position: 117px 0;
+    margin: 0;
+    position: relative;
+}
+
+#the-booleaner-logo {
+    height: 49.5%;
+    position: absolute;
+    left: 10px;
+    bottom: 18px;
+}
+
+#titolo-articolo {
+    font-size: 3.8em;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-weight: 900;
+    line-height: 1.1em;
+    color: white;
+}
+
+.article-details {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #808080;
+    text-align: right;
+}
+
+#autore {
+    font-size: 1.8em;
+}
+
+#data-articolo {
+    font-size: 1.2em;
+}
+
+#author-name {
+    color: darkorchid  ;
+}
+
+/* /Header */
+
+/* Main */
+
+.articolo {
+    margin-left: 10px;
+    padding: 15px;
+}
+
+#foto-articolo-container {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.foto-articolo {
+    margin-bottom: 0;
+    margin-right: 2px;
+    height: 400px
+}
+
+.didascalia {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+#testo-articolo {
+    font-size: 1.5em;
+}
+
+.highlight {
+    background-color: darkorchid;
+}
+
+.paragrafo {
+    padding-bottom: 40px;
+    color: white;
+}
+
+.list {
+    margin-left: 0;
+    padding-left: 18px;
+    color: white;
+}
+
+/* Table */
+
+table {
+    color: white;
+    border-collapse:collapse
+}
+
+.small-cell {
+    width: 25%;
+}
+
+.large-cell {
+    width: 50%;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(56, 0, 56);
+    color: white;
+}
+
+.odd-row {
+    background-color: rgb(85, 0, 85);
+}
+
+/* /Table */
+
+/* /Main */
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-title {
+    font-size: 1.5em;
+    color: #929292;
+    flex-basis: 100%;
+}
+
+.foto-footer {
+    height: 190px;
+    width: 250px;
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+}
+
+#foto-footer-uno {
+    background-image: url(../../img/monitor.jpg);
+}
+
+#foto-footer-due {
+    background-image: url(../../img/graph.jpg);
+}
+
+/* /Footer */
