@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+#banner {
+    height: 160px;
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+    background-size: 37.5%;
+    background-position: 115px 0;
+    margin: 0;
+    position: relative;
+}
+
+#the-booleaner-logo {
+    height: 50%;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
