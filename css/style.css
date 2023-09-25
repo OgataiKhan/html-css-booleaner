@@ -3,20 +3,20 @@ body {
 }
 
 #banner {
-    height: 160px;
+    height: 165px;
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
-    background-size: 37.5%;
-    background-position: 115px 0;
+    background-size: 620px;
+    background-position: 117px 0;
     margin: 0;
     position: relative;
 }
 
 #the-booleaner-logo {
-    height: 50%;
+    height: 49.5%;
     position: absolute;
     left: 10px;
-    bottom: 15px;
+    bottom: 18px;
 }
 
 #titolo-articolo {
@@ -46,4 +46,24 @@ body {
 
 #author-name {
     color: #20a9e5  ;
+}
+
+.articolo {
+    margin-left: 10px;
+}
+
+#foto-articolo-container {
+    margin-top: 30px;
+}
+
+.foto-articolo {
+    margin-bottom: 0;
+    margin-right: 2px;
+    height: 570px
+}
+
+.didascalia {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.2em;
 }
