@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* Header */
+
 #banner {
     height: 165px;
     background-image: url(../img/pattern.png);
@@ -48,12 +50,17 @@ body {
     color: #20a9e5  ;
 }
 
+/* /Header */
+
+/* Main */
+
 .articolo {
     margin-left: 10px;
 }
 
 #foto-articolo-container {
     margin-top: 30px;
+    margin-bottom: 25px;
 }
 
 .foto-articolo {
@@ -67,3 +74,51 @@ body {
     margin-bottom: 0;
     font-size: 1.2em;
 }
+
+#testo-articolo {
+    font-size: 1.5em;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.paragrafo {
+    margin-bottom: 40px;
+}
+
+.list {
+    margin-left: 0;
+    padding-left: 18px;
+}
+
+/* Table */
+
+table {
+    border-collapse:collapse
+}
+
+.small-cell {
+    width: 25%;
+}
+
+.large-cell {
+    width: 50%;
+}
+
+th {
+    text-align: left;
+    background-color: #20a9e5;
+    color: white;
+}
+
+.odd-row {
+    background-color: #b1e5f2;
+}
+
+/* /Table */
+
+
+
+
+/* /Main */
