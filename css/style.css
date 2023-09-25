@@ -18,3 +18,32 @@ body {
     left: 10px;
     bottom: 15px;
 }
+
+#titolo-articolo {
+    font-size: 3.8em;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-bottom: 0;
+    font-weight: 900;
+    line-height: 1.1em;
+}
+
+.article-details {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #808080;
+}
+
+#autore {
+    font-size: 1.8em;
+}
+
+#data-articolo {
+    font-size: 1.2em;
+}
+
+#author-name {
+    color: #20a9e5  ;
+}
